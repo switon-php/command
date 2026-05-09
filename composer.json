@@ -1,0 +1,40 @@
+{
+  "name": "switon/command",
+  "description": "Command metadata, discovery, and inspection for Switon Framework",
+  "type": "library",
+  "keywords": [
+    "switon",
+    "command",
+    "metadata",
+    "discovery",
+    "tooling"
+  ],
+  "homepage": "https://github.com/switon-php/command",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "switon",
+      "email": "admin@switon.dev"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/switon-php/command",
+    "issues": "https://github.com/switon-php/command/issues",
+    "docs": "https://docs.switon.dev/latest/command"
+  },
+  "require": {
+    "php": ">=8.3",
+    "switon/composer-extra": "^1.0",
+    "switon/core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Switon\\Command\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Switon\\Command\\Tests\\": "tests/"
+    }
+  }
+}
