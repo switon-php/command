@@ -1,6 +1,6 @@
 {
   "name": "switon/command",
-  "description": "Command metadata, discovery, and inspection for Switon Framework",
+  "description": "Command metadata, discovery, and tooling for Switon (standalone)",
   "type": "library",
   "keywords": [
     "switon",
